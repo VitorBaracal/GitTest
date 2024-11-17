@@ -1,0 +1,80 @@
+/* ========== IMPORTAÇÃO DE FONTES ========== */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ========== EXCLUSÃO DE FORMATAÇÕES GERAIS DA PÁGINA ========== */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* ========== TOP NAV SITE ========== */
+.top-nav {
+    background-color: #F5F5F5;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.img-top-nav {
+    display: flex;
+    align-items: center; 
+    margin-left: 100px;
+}
+.jordan-top-nav, .converse-top-nav {
+    height: 20px; 
+    margin-left: 20px; 
+}
+.text-top-nav {
+    display: flex;
+    gap: 10px;
+    margin-right: 100px;
+}
+.text-top-nav a {
+    color: #111111;
+    text-decoration: none;
+}
+/* ========== TOP NAV SITE ========== */
+
+/* ========== HEADER MENU ========== */
+.header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    position: relative; 
+    height: 40px;
+}
+.header-nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+    margin-top: 14px;
+}
+.header-logo {
+    position: absolute; 
+    left: 30px;
+}
+.header-logo img {
+    width: 80px;
+    margin-top: 5px; 
+}
+.header-content {
+    display: flex;
+    gap: 25px;
+    font-weight: bold;
+}
+.header-content a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.header-content a:hover {
+    background-color: black;
+    color: white;
+    border-radius:  5px;
+    padding: 1px 15px;
+    transition: all 0.6s;
+}
+/* ========== HEADER MENU ========== */
