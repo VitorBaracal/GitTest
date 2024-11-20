@@ -334,14 +334,13 @@ body, html {
         margin: 20px auto;
     }
 
-    /* Produtos */
+    
     .product-grid-main-four {
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
     }
 
-    /* Footer */
     .footer-columns {
         grid-template-columns: 1fr;
         text-align: center;

@@ -56,21 +56,104 @@
     <!-- ========== END HEADER MENU ========== -->   
 
     <!-- ========== SIGN IN FORMS ========== -->
-    <h2> Login </h2>
-    <form action="" method="post"> 
-        <label class="label-name" for="name"> Name </label>
-        <input type="text" class="name" name="name" required>
-    
-        <label class="label-email" for="email"> Email </label>
-        <input type="email" class="email" name="email" required>
-    
-        <label class="label-password" for="password"> Password </label>
-        <input type="password" class="password" name="password" required>
-    
-        <button type="submit" class="button">Login</button>
-    </form>
+    <div id="main">
+        <h2> Login on Website </h2>
+        <form action="" method="post"> 
+            
+            <div class="form-group">
+                <label class="label" for="name"> Name </label>
+                <input type="text" id="name" name="name" required>
+            </div>
+                    
+            <div class="form-group">
+                <label class="label" for="email"> Email </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+                    
+            <div class="form-group">
+                <label class="label" for="password"> Password </label>
+                <input type="password" id="password" name="password" required pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$">
+                <p class="caption"> minimum 8 characters, including a special character </p>
+            </div>
+            
+            <button type="submit" class="button" onclick="Login()">Login</button>
+            
+        </form>
+    </div>  
+    <!-- ========== SIGN IN FORMS ========== -->
 
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3> Resources </h3>
+                    <ul class="footer-links">
+                        <li><a href="#"> Gift Cards </a></li>
+                        <li><a href="#"> Find a Store </a></li>
+                        <li><a href="#"> Membership </a></li>
+                        <li><a href="#"> Nike Journal </a></li>
+                        <li><a href="#"> Site Feedback </a></li>
+                    </ul>
+                </div>
 
-    
+                <div class="footer-column">
+                    <h3> Help </h3>
+                    <ul class="footer-links">
+                        <li><a href="#"> Get Help </a></li>
+                        <li><a href="#"> Order Status </a></li>
+                        <li><a href="#"> Shipping and Delivery </a></li>
+                        <li><a href="#"> Returns </a></li>
+                        <li><a href="#"> Order Cancellation </a></li>
+                        <li><a href="#"> Payment Options </a></li>
+                        <li><a href="#"> Gift Card Balance </a></li>
+                        <li><a href="#"> Contact Us </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3> Company </h3>
+                    <ul class="footer-links">
+                        <li><a href="#"> About Nike </a></li>
+                        <li><a href="#"> News </a></li>
+                        <li><a href="#"> Careers </a></li>
+                        <li><a href="#"> Investors </a></li>
+                        <li><a href="#"> Purpose </a></li>
+                        <li><a href="#"> Sustainability </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3> Promotions & Discounts </h3>
+                    <ul class="footer-links">
+                        <li><a href="#"> Student </a></li>
+                        <li><a href="#"> Military </a></li>
+                        <li><a href="#"> Teacher </a></li>
+                        <li><a href="#"> First Responders & Medical Professionals </a></li>
+                        <li><a href="#"> Birthday </a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="location">
+                    <span> 🌍 </span>
+                    <a href="#"> Brasil </a>
+                </div>
+                <div class="footer-legal">
+                    <span> © 2024 Nike, Inc. All Rights Reserved </span>
+                    <a href="#"> Guides </a>
+                    <a href="#"> Terms of Sale </a>
+                    <a href="#"> Terms of Use </a>
+                    <a href="#"> Nike Privacy Policy </a>
+                    <a href="#"> Your Privacy Choices </a>
+                    <a href="#"> CA Supply Chains Act </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ========== END FOOTER ========== -->
+
+    <script src="scripts/scripts.js"> </script>
 </body>
 </html>
