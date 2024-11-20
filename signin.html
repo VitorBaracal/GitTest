@@ -58,11 +58,16 @@
     <!-- ========== SIGN IN FORMS ========== -->
     <h2> Login </h2>
     <form action="" method="post"> 
-        <label for="email"> Email </label>
+        <label class="label-name" for="name"> Name </label>
+        <input type="text" class="name" name="name" required>
+    
+        <label class="label-email" for="email"> Email </label>
         <input type="email" class="email" name="email" required>
-        <label for="password"> Password </label>
+    
+        <label class="label-password" for="password"> Password </label>
         <input type="password" class="password" name="password" required>
-
+    
+        <button type="submit" class="button">Login</button>
     </form>
 
 
